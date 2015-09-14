@@ -13,6 +13,14 @@
 		1579DE8D1BA72E0A003F9EAD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1579DE8C1BA72E0A003F9EAD /* Images.xcassets */; };
 		1579DE901BA72E0A003F9EAD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1579DE8E1BA72E0A003F9EAD /* LaunchScreen.xib */; };
 		1579DE9C1BA72E0A003F9EAD /* AnimatedLoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1579DE9B1BA72E0A003F9EAD /* AnimatedLoginTests.swift */; };
+		1579DEAA1BA72E2D003F9EAD /* CGRectEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1579DEA51BA72E2D003F9EAD /* CGRectEx.swift */; };
+		1579DEAB1BA72E2D003F9EAD /* FadeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1579DEA61BA72E2D003F9EAD /* FadeTransition.swift */; };
+		1579DEAC1BA72E2D003F9EAD /* NSTimerEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1579DEA71BA72E2D003F9EAD /* NSTimerEx.swift */; };
+		1579DEAD1BA72E2D003F9EAD /* SpinerLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1579DEA81BA72E2D003F9EAD /* SpinerLayer.swift */; };
+		1579DEAE1BA72E2D003F9EAD /* TransitionSubmitButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1579DEA91BA72E2D003F9EAD /* TransitionSubmitButton.swift */; };
+		1579DEB11BA72F7F003F9EAD /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1579DEB01BA72F7F003F9EAD /* SecondViewController.swift */; };
+		1579DEB31BA730AE003F9EAD /* Login.png in Resources */ = {isa = PBXBuildFile; fileRef = 1579DEB21BA730AE003F9EAD /* Login.png */; };
+		1579DEB51BA730B7003F9EAD /* Home.png in Resources */ = {isa = PBXBuildFile; fileRef = 1579DEB41BA730B7003F9EAD /* Home.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +44,14 @@
 		1579DE951BA72E0A003F9EAD /* AnimatedLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimatedLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1579DE9A1BA72E0A003F9EAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1579DE9B1BA72E0A003F9EAD /* AnimatedLoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedLoginTests.swift; sourceTree = "<group>"; };
+		1579DEA51BA72E2D003F9EAD /* CGRectEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGRectEx.swift; sourceTree = "<group>"; };
+		1579DEA61BA72E2D003F9EAD /* FadeTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeTransition.swift; sourceTree = "<group>"; };
+		1579DEA71BA72E2D003F9EAD /* NSTimerEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSTimerEx.swift; sourceTree = "<group>"; };
+		1579DEA81BA72E2D003F9EAD /* SpinerLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpinerLayer.swift; sourceTree = "<group>"; };
+		1579DEA91BA72E2D003F9EAD /* TransitionSubmitButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionSubmitButton.swift; sourceTree = "<group>"; };
+		1579DEB01BA72F7F003F9EAD /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		1579DEB21BA730AE003F9EAD /* Login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Login.png; sourceTree = "<group>"; };
+		1579DEB41BA730B7003F9EAD /* Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Home.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +95,11 @@
 			children = (
 				1579DE851BA72E0A003F9EAD /* AppDelegate.swift */,
 				1579DE871BA72E0A003F9EAD /* ViewController.swift */,
+				1579DEB01BA72F7F003F9EAD /* SecondViewController.swift */,
+				1579DEAF1BA72E31003F9EAD /* TKSubmitTransition */,
 				1579DE891BA72E0A003F9EAD /* Main.storyboard */,
+				1579DEB21BA730AE003F9EAD /* Login.png */,
+				1579DEB41BA730B7003F9EAD /* Home.png */,
 				1579DE8C1BA72E0A003F9EAD /* Images.xcassets */,
 				1579DE8E1BA72E0A003F9EAD /* LaunchScreen.xib */,
 				1579DE831BA72E0A003F9EAD /* Supporting Files */,
@@ -110,6 +130,18 @@
 				1579DE9A1BA72E0A003F9EAD /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1579DEAF1BA72E31003F9EAD /* TKSubmitTransition */ = {
+			isa = PBXGroup;
+			children = (
+				1579DEA51BA72E2D003F9EAD /* CGRectEx.swift */,
+				1579DEA61BA72E2D003F9EAD /* FadeTransition.swift */,
+				1579DEA71BA72E2D003F9EAD /* NSTimerEx.swift */,
+				1579DEA81BA72E2D003F9EAD /* SpinerLayer.swift */,
+				1579DEA91BA72E2D003F9EAD /* TransitionSubmitButton.swift */,
+			);
+			name = TKSubmitTransition;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +225,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1579DE8B1BA72E0A003F9EAD /* Main.storyboard in Resources */,
+				1579DEB31BA730AE003F9EAD /* Login.png in Resources */,
+				1579DEB51BA730B7003F9EAD /* Home.png in Resources */,
 				1579DE901BA72E0A003F9EAD /* LaunchScreen.xib in Resources */,
 				1579DE8D1BA72E0A003F9EAD /* Images.xcassets in Resources */,
 			);
@@ -212,7 +246,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1579DEB11BA72F7F003F9EAD /* SecondViewController.swift in Sources */,
 				1579DE881BA72E0A003F9EAD /* ViewController.swift in Sources */,
+				1579DEAA1BA72E2D003F9EAD /* CGRectEx.swift in Sources */,
+				1579DEAB1BA72E2D003F9EAD /* FadeTransition.swift in Sources */,
+				1579DEAC1BA72E2D003F9EAD /* NSTimerEx.swift in Sources */,
+				1579DEAD1BA72E2D003F9EAD /* SpinerLayer.swift in Sources */,
+				1579DEAE1BA72E2D003F9EAD /* TransitionSubmitButton.swift in Sources */,
 				1579DE861BA72E0A003F9EAD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
