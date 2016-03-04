@@ -44,7 +44,7 @@ public class TKTransitionSubmitButton : UIButton, UIViewControllerTransitioningD
         }
     }
 
-    public required init(coder aDecoder: NSCoder) {
+    public required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         self.setup()
     }
