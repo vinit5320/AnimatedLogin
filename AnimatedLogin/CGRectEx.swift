@@ -1,9 +1,9 @@
 //
 //  CGRectEx.swift
-//  SubmitTransition
+//  AnimatedLogin
 //
-//  Created by Takuya Okamoto on 2015/08/07.
-//  Copyright (c) 2015年 Uniface. All rights reserved.
+//  Created by Vinit Jasoliya on 9/14/15.
+//  Copyright (c) 2015 ViNiT. All rights reserved.
 //
 
 import UIKit
@@ -14,7 +14,7 @@ extension CGRect {
             return self.origin.x
         }
         set {
-            self = CGRectMake(newValue, self.minY, self.width, self.height)
+            self = CGRect(x: newValue, y: self.y, width: self.width, height: self.height)
         }
     }
     
@@ -23,7 +23,7 @@ extension CGRect {
             return self.origin.y
         }
         set {
-            self = CGRectMake(self.x, newValue, self.width, self.height)
+            self = CGRect(x: self.x, y: newValue, width: self.width, height: self.height)
         }
     }
     
@@ -32,7 +32,7 @@ extension CGRect {
             return self.size.width
         }
         set {
-            self = CGRectMake(self.x, self.width, newValue, self.height)
+            self = CGRect(x: self.x, y: self.y, width: newValue, height: self.height)
         }
     }
     
@@ -41,7 +41,7 @@ extension CGRect {
             return self.size.height
         }
         set {
-            self = CGRectMake(self.x, self.minY, self.width, newValue)
+            self = CGRect(x: self.x, y: self.y, width: self.width, height: newValue)
         }
     }
     
@@ -60,7 +60,7 @@ extension CGRect {
             return self.origin.y + self.size.height
         }
         set {
-            self = CGRectMake(x, newValue - height, width, height)
+            self = CGRect(x: x, y: newValue - height, width: width, height: height)
         }
     }
     
@@ -78,7 +78,7 @@ extension CGRect {
             return x + width
         }
         set {
-            self = CGRectMake(newValue - width, y, width, height)
+            self = CGRect(x: newValue - width, y: y, width: width, height: height)
         }
     }
     
@@ -88,7 +88,7 @@ extension CGRect {
             return self.x + self.width / 2
         }
         set {
-            self = CGRectMake(newValue - width / 2, y, width, height)
+            self = CGRect(x: newValue - width / 2, y: y, width: width, height: height)
         }
     }
     
@@ -97,17 +97,30 @@ extension CGRect {
             return self.y + self.height / 2
         }
         set {
-            self = CGRectMake(x, newValue - height / 2, width, height)
+            self = CGRect(x: x, y: newValue - height / 2, width: width, height: height)
         }
     }
     
 
     var center: CGPoint {
         get {
-            return CGPointMake(self.midX, self.midY)
+            return CGPoint(x: self.midX, y: self.midY)
         }
         set {
-            self = CGRectMake(newValue.x - width / 2, newValue.y - height / 2, width, height)
+            self = CGRect(x: newValue.x - width / 2, y: newValue.y - height / 2, width: width, height: height)
         }
     }
 }
+
+extension UIImage {
+    class func imageWithColor(color: UIColor) -> UIImage {
+        let rect: CGRect = CGRect(x: 0, y: 0, width: 1, height: 1)
+        UIGraphicsBeginImageContextWithOptions(CGSize(width: 1, height: 1), false, 0)
+        color.setFill()
+        UIRectFill(rect)
+        let image: UIImage = UIGraphicsGetImageFromCurrentImageContext()!
+        UIGraphicsEndImageContext()
+        return image
+    }
+}
+

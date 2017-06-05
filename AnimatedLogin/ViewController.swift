@@ -20,7 +20,7 @@ class ViewController: UIViewController, UIViewControllerTransitioningDelegate {
         bg.frame = self.view.frame
         self.view.addSubview(bg)
         btnFromNib.layer.cornerRadius = 30.0
-        self.view.bringSubviewToFront(self.btnFromNib)
+        self.view.bringSubview(toFront: self.btnFromNib)
         
     }
 
@@ -29,20 +29,20 @@ class ViewController: UIViewController, UIViewControllerTransitioningDelegate {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func onTapButton(button: TKTransitionSubmitButton) {
+    @IBAction func onTapButton(_ button: TKTransitionSubmitButton) {
         button.animate(1, completion: { () -> () in
             let secondVC = SecondViewController()
             secondVC.transitioningDelegate = self
-            self.presentViewController(secondVC, animated: true, completion: nil)
+            self.present(secondVC, animated: true, completion: nil)
         })
     }
     
     // MARK: UIViewControllerTransitioningDelegate
-    func animationControllerForPresentedController(presented: UIViewController, presentingController presenting: UIViewController, sourceController source: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+    func animationController(forPresented presented: UIViewController, presenting: UIViewController, source: UIViewController) -> UIViewControllerAnimatedTransitioning? {
         return TKFadeInAnimator(transitionDuration: 0.5, startingAlpha: 0.8)
     }
     
-    func animationControllerForDismissedController(dismissed: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+    func animationController(forDismissed dismissed: UIViewController) -> UIViewControllerAnimatedTransitioning? {
         return nil
     }
 

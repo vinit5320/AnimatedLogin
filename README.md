@@ -1,6 +1,6 @@
 # AnimatedLogin
 
-Updated for Swift 2.0
+**Now updated for Swift 3.0!!**
 
  Guide: https://swiftyos.wordpress.com/2015/09/14/animated-login-screen-tksubmittransition
 

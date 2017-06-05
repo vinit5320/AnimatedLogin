@@ -13,14 +13,14 @@
 		1579DE8D1BA72E0A003F9EAD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1579DE8C1BA72E0A003F9EAD /* Images.xcassets */; };
 		1579DE901BA72E0A003F9EAD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1579DE8E1BA72E0A003F9EAD /* LaunchScreen.xib */; };
 		1579DE9C1BA72E0A003F9EAD /* AnimatedLoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1579DE9B1BA72E0A003F9EAD /* AnimatedLoginTests.swift */; };
-		1579DEAA1BA72E2D003F9EAD /* CGRectEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1579DEA51BA72E2D003F9EAD /* CGRectEx.swift */; };
-		1579DEAB1BA72E2D003F9EAD /* FadeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1579DEA61BA72E2D003F9EAD /* FadeTransition.swift */; };
-		1579DEAC1BA72E2D003F9EAD /* NSTimerEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1579DEA71BA72E2D003F9EAD /* NSTimerEx.swift */; };
-		1579DEAD1BA72E2D003F9EAD /* SpinerLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1579DEA81BA72E2D003F9EAD /* SpinerLayer.swift */; };
-		1579DEAE1BA72E2D003F9EAD /* TransitionSubmitButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1579DEA91BA72E2D003F9EAD /* TransitionSubmitButton.swift */; };
 		1579DEB11BA72F7F003F9EAD /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1579DEB01BA72F7F003F9EAD /* SecondViewController.swift */; };
 		1579DEB31BA730AE003F9EAD /* Login.png in Resources */ = {isa = PBXBuildFile; fileRef = 1579DEB21BA730AE003F9EAD /* Login.png */; };
 		1579DEB51BA730B7003F9EAD /* Home.png in Resources */ = {isa = PBXBuildFile; fileRef = 1579DEB41BA730B7003F9EAD /* Home.png */; };
+		2B4930201EE5B9A2007C5AAD /* CGRectEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B49301B1EE5B9A2007C5AAD /* CGRectEx.swift */; };
+		2B4930211EE5B9A2007C5AAD /* FadeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B49301C1EE5B9A2007C5AAD /* FadeTransition.swift */; };
+		2B4930221EE5B9A2007C5AAD /* NSTimerEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B49301D1EE5B9A2007C5AAD /* NSTimerEx.swift */; };
+		2B4930231EE5B9A2007C5AAD /* SpinerLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B49301E1EE5B9A2007C5AAD /* SpinerLayer.swift */; };
+		2B4930241EE5B9A2007C5AAD /* TransitionSubmitButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B49301F1EE5B9A2007C5AAD /* TransitionSubmitButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,14 +44,14 @@
 		1579DE951BA72E0A003F9EAD /* AnimatedLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimatedLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1579DE9A1BA72E0A003F9EAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1579DE9B1BA72E0A003F9EAD /* AnimatedLoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedLoginTests.swift; sourceTree = "<group>"; };
-		1579DEA51BA72E2D003F9EAD /* CGRectEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGRectEx.swift; sourceTree = "<group>"; };
-		1579DEA61BA72E2D003F9EAD /* FadeTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeTransition.swift; sourceTree = "<group>"; };
-		1579DEA71BA72E2D003F9EAD /* NSTimerEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSTimerEx.swift; sourceTree = "<group>"; };
-		1579DEA81BA72E2D003F9EAD /* SpinerLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpinerLayer.swift; sourceTree = "<group>"; };
-		1579DEA91BA72E2D003F9EAD /* TransitionSubmitButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionSubmitButton.swift; sourceTree = "<group>"; };
 		1579DEB01BA72F7F003F9EAD /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		1579DEB21BA730AE003F9EAD /* Login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Login.png; sourceTree = "<group>"; };
 		1579DEB41BA730B7003F9EAD /* Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Home.png; sourceTree = "<group>"; };
+		2B49301B1EE5B9A2007C5AAD /* CGRectEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGRectEx.swift; sourceTree = "<group>"; };
+		2B49301C1EE5B9A2007C5AAD /* FadeTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeTransition.swift; sourceTree = "<group>"; };
+		2B49301D1EE5B9A2007C5AAD /* NSTimerEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSTimerEx.swift; sourceTree = "<group>"; };
+		2B49301E1EE5B9A2007C5AAD /* SpinerLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpinerLayer.swift; sourceTree = "<group>"; };
+		2B49301F1EE5B9A2007C5AAD /* TransitionSubmitButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionSubmitButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,11 +135,11 @@
 		1579DEAF1BA72E31003F9EAD /* TKSubmitTransition */ = {
 			isa = PBXGroup;
 			children = (
-				1579DEA51BA72E2D003F9EAD /* CGRectEx.swift */,
-				1579DEA61BA72E2D003F9EAD /* FadeTransition.swift */,
-				1579DEA71BA72E2D003F9EAD /* NSTimerEx.swift */,
-				1579DEA81BA72E2D003F9EAD /* SpinerLayer.swift */,
-				1579DEA91BA72E2D003F9EAD /* TransitionSubmitButton.swift */,
+				2B49301B1EE5B9A2007C5AAD /* CGRectEx.swift */,
+				2B49301C1EE5B9A2007C5AAD /* FadeTransition.swift */,
+				2B49301D1EE5B9A2007C5AAD /* NSTimerEx.swift */,
+				2B49301E1EE5B9A2007C5AAD /* SpinerLayer.swift */,
+				2B49301F1EE5B9A2007C5AAD /* TransitionSubmitButton.swift */,
 			);
 			name = TKSubmitTransition;
 			sourceTree = "<group>";
@@ -195,9 +195,11 @@
 				TargetAttributes = {
 					1579DE7F1BA72E0A003F9EAD = {
 						CreatedOnToolsVersion = 6.4;
+						LastSwiftMigration = 0830;
 					};
 					1579DE941BA72E0A003F9EAD = {
 						CreatedOnToolsVersion = 6.4;
+						LastSwiftMigration = 0830;
 						TestTargetID = 1579DE7F1BA72E0A003F9EAD;
 					};
 				};
@@ -249,12 +251,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1579DEB11BA72F7F003F9EAD /* SecondViewController.swift in Sources */,
+				2B4930221EE5B9A2007C5AAD /* NSTimerEx.swift in Sources */,
+				2B4930241EE5B9A2007C5AAD /* TransitionSubmitButton.swift in Sources */,
+				2B4930231EE5B9A2007C5AAD /* SpinerLayer.swift in Sources */,
+				2B4930211EE5B9A2007C5AAD /* FadeTransition.swift in Sources */,
 				1579DE881BA72E0A003F9EAD /* ViewController.swift in Sources */,
-				1579DEAA1BA72E2D003F9EAD /* CGRectEx.swift in Sources */,
-				1579DEAB1BA72E2D003F9EAD /* FadeTransition.swift in Sources */,
-				1579DEAC1BA72E2D003F9EAD /* NSTimerEx.swift in Sources */,
-				1579DEAD1BA72E2D003F9EAD /* SpinerLayer.swift in Sources */,
-				1579DEAE1BA72E2D003F9EAD /* TransitionSubmitButton.swift in Sources */,
+				2B4930201EE5B9A2007C5AAD /* CGRectEx.swift in Sources */,
 				1579DE861BA72E0A003F9EAD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -387,6 +389,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.swiftyOS.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -398,6 +401,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.swiftyOS.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -417,6 +421,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.swiftyOS.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimatedLogin.app/AnimatedLogin";
 			};
 			name = Debug;
@@ -433,6 +438,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.swiftyOS.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimatedLogin.app/AnimatedLogin";
 			};
 			name = Release;
